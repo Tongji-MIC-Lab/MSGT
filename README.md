@@ -38,6 +38,36 @@ To evaluate the effectiveness of the proposed method, MSGT is compared with othe
 <br/><font>Fig. 3. Instances of (a) successful case and (b) failure case for the VCR task obtained by the proposed MSGT.</font>
 </p>
 
+### Usage:
+
+#### requirements
+```
+conda install numpy pyyaml setuptools cmake cffi tqdm pyyaml scipy ipython mkl mkl-include cython typing h5py pandas nltk spacy numpydoc scikit-learn jpeg
+conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
+pip install -r allennlp-requirements.txt
+pip install --no-deps allennlp==0.8.0
+python -m spacy download en_core_web_sm
+```
+
+#### data
+Follow the steps in `data/README.md`. This includes the steps to get the pretrained BERT embeddings and the parsed results of sentences.
+
+#### Train/Evaluate models
+
+- For question answering, run:
+```
+python train_msgt.py -params models/multiatt/default_MSGT.json -folder results/answer_save -train -test
+```
+
+- for Answer justification, run
+```
+python train_msgt.py -params models/multiatt/default_MSGT.json -folder results/reason_save -train -test -rational
+```
+
+You can combine the validation predictions using
+`python eval_q2ar.py`
+
+
 ### Citation:
 
 Please cite the following paper if you find this work useful:
