@@ -40,7 +40,7 @@ To evaluate the effectiveness of the proposed method, MSGT is compared with othe
 
 ### Usage:
 
-#### requirements
+#### Requirements
 ```
 conda install numpy pyyaml setuptools cmake cffi tqdm pyyaml scipy ipython mkl mkl-include cython typing h5py pandas nltk spacy numpydoc scikit-learn jpeg
 conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
@@ -49,7 +49,7 @@ pip install --no-deps allennlp==0.8.0
 python -m spacy download en_core_web_sm
 ```
 
-#### data
+#### Data
 Follow the steps in `data/README.md`. This includes the steps to get the pretrained BERT embeddings and the parsed results of sentences.
 
 #### Train/Evaluate models
