@@ -29,12 +29,12 @@ To evaluate the effectiveness of the proposed method, MSGT is compared with othe
 </p>
 
 <p align="center">
-<image src="source/Fig4.jpeg" width="650">
+<image src="source/Fig4.jpg" width="650">
 <br/><font>Fig. 2. An instance of multi-modal structure embedding for the VCR task obtained by the proposed MSGT.</font>
 </p>
 
 <p align="center">
-<image src="source/Fig5.jpeg" width="650">
+<image src="source/Fig5.jpg" width="650">
 <br/><font>Fig. 3. Instances of (a) successful case and (b) failure case for the VCR task obtained by the proposed MSGT.</font>
 </p>
 
