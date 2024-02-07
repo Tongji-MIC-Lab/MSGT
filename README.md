@@ -72,5 +72,5 @@ You can combine the validation predictions using
 
 Please cite the following paper if you find this work useful:
 
-Jian Zhu, Hanli Wang, and Bin He, Multi-modal Structure-embedding Graph Transformer for Visual Commonsense Reasoning, IEEE Transactions on Multimedia, 2023.
+Jian Zhu, Hanli Wang, and Bin He, Multi-modal Structure-embedding Graph Transformer for Visual Commonsense Reasoning, IEEE Transactions on Multimedia, vol. 26, pp. 1295-1305, Jan. 2024.
 
